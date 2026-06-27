@@ -1,0 +1,23 @@
+# Ignore raw Olist datasets (very large files)
+dataset/olist_*.csv
+
+# Keep processed features and results
+!dataset/product_features_clean.csv
+!dataset/fis_discount_results.csv
+
+# Ignore python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoint folders
+.ipynb_checkpoints/
+
+# Ignore LaTeX compilation log files (keeps repository clean)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.pdf
