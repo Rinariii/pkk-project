@@ -749,7 +749,7 @@ elif page == "📚 Aturan & Metodologi":
     st.markdown("""
     ### 📕 Batasan Rentang Output Diskon (0% - 50%)
     Secara akademis, diskon produk dibatasi maksimal **50%** berdasarkan dua pertimbangan:
-    - **Quality-Signaling Theory:** Diskon di atas 50% akan menurunkan persepsi pembeli terhadap kualitas produk secara drastis (*brand dilution*) [Grewal et al., 1998].
+    - **Quality-Signaling Theory: Diskon harga dapat memengaruhi persepsi nilai dan harga referensi konsumen. Meskipun pengaruh langsung terhadap persepsi kualitas merek relatif kecil, promosi harga yang dilakukan secara berulang berpotensi menurunkan citra dan ekuitas merek dalam jangka panjang (Grewal et al., 1998).**
     - **Margin Protection:** Dari perspektif pemodelan rantai pasok ritel ritel, elastisitas volume penjualan tidak lagi efisien untuk mengompensasi penurunan margin keuntungan per unit yang sangat tajam di atas ambang batas 50% [Kumar et al., 2016].
     """)
 
