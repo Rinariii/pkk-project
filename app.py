@@ -735,14 +735,14 @@ elif page == "📚 Aturan & Metodologi":
     
     # 8 rules formatted table
     rules_table = [
-        {"No": "1", "Stok": "Banyak", "Penjualan": "Rendah", "Rating": "-", "Output Diskon": "Besar", "Justifikasi / Jurnal Pendukung": "Pembersihan gudang (liquidating slow-moving stocks) [Petrovic, 1999]"},
-        {"No": "2", "Stok": "Sedikit", "Penjualan": "Tinggi", "Rating": "-", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Produk populer stok terbatas tidak butuh diskon tinggi (opportunity loss protection) [Zhao, 2016]"},
-        {"No": "3", "Stok": "-", "Penjualan": "-", "Rating": "Buruk", "Output Diskon": "Besar", "Justifikasi / Jurnal Pendukung": "Likuidasi reputasi buruk agar modal kembali cepat [Grewal, 1998]"},
-        {"No": "4", "Stok": "Sedang", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Strategi harga stabil untuk menjaga marjin ritel [Kumar, 2016]"},
-        {"No": "5", "Stok": "Banyak", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Diskon moderat untuk meningkatkan laju stok sedang [Renna, 2015]"},
-        {"No": "6", "Stok": "Sedang", "Penjualan": "Rendah", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Stimulus harga agar produk tidak masuk tier lambat [Petrovic, 1999]"},
-        {"No": "7", "Stok": "Sedikit", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Menjaga stok tersisa tetap terjual pada harga wajar [Shekarian, 2017]"},
-        {"No": "8", "Stok": "-", "Penjualan": "Tinggi", "Rating": "Baik", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Produk bintang dengan penjualan tinggi, keuntungan maksimal [Kumar, 2016]"}
+        {"No": "1", "Stok": "Banyak", "Penjualan": "Rendah", "Rating": "-", "Output Diskon": "Besar", "Justifikasi / Jurnal Pendukung": "Pembersihan gudang dan penekanan biaya penyimpanan [Kumar, 2016]"},
+        {"No": "2", "Stok": "Sedikit", "Penjualan": "Tinggi", "Rating": "-", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Mempertahankan harga saat permintaan tinggi untuk profitabilitas [Kumar, 2016]"},
+        {"No": "3", "Stok": "-", "Penjualan": "-", "Rating": "Buruk", "Output Diskon": "Besar", "Justifikasi / Jurnal Pendukung": "Meningkatkan daya tarik produk dengan reputasi rendah [Feng, 2019]"},
+        {"No": "4", "Stok": "Sedang", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Strategi promosi dasar (baseline) ritel standar [Kumar, 2016]"},
+        {"No": "5", "Stok": "Banyak", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Mengurangi persediaan secara bertahap tanpa diskon berlebih [Renna, 2015]"},
+        {"No": "6", "Stok": "Sedang", "Penjualan": "Rendah", "Rating": "-", "Output Diskon": "Sedang", "Justifikasi / Jurnal Pendukung": "Stimulus harga agar produk tidak menjadi dead stock [Shekarian, 2017]"},
+        {"No": "7", "Stok": "Sedikit", "Penjualan": "Sedang", "Rating": "-", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Menjaga stok tersisa tetap terjual pada harga wajar [Expert Rule]"},
+        {"No": "8", "Stok": "-", "Penjualan": "Tinggi", "Rating": "Baik", "Output Diskon": "Kecil", "Justifikasi / Jurnal Pendukung": "Produk reputasi baik dan permintaan tinggi tidak butuh diskon agresif [Shin, 2022]"}
     ]
     st.table(rules_table)
     
